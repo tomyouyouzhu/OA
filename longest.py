@@ -78,7 +78,7 @@ Because we need to read all files and keep tracking them, so the time complexity
 os is used for checking if the file is empty.
 
 Edge cases:
-There could be some edge cases, such as some iles are empty. In this case, reading part will alert.
+There could be some edge cases, such as some lines are empty. In this case, the reading part will alert.
 If all files are empty, S will be empty, then M will be empty too, and output or return will be empty.
 If all files contain the same bytes, the output or return will be the length of it and all positions in all files. (This case is meaningless.)
 """
